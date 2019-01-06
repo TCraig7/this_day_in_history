@@ -1,0 +1,76 @@
+body, html {
+  height: 100%;
+}
+
+footer {
+  background-color: #262626;
+  position: fixed;
+  height: 6rem;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+h1 {
+  font-family: 'Lobster', sans-serif;
+  text-decoration: underline;
+  font-size: 11rem;
+  color: #FFF;
+  text-align: center;
+  margin-top: 4rem;
+}
+
+h4 {
+  font-family: 'Mukta', sans-serif;
+  font-size: 6rem;
+  color: ##262626;
+  text-align: center;
+  margin-top: 25%;
+}
+
+nav {
+  height: 6rem;
+  background-color: #262626;
+}
+
+.bg {
+  background-image: url(/images/background.jpeg);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.btn {
+  background-color: Transparent;
+  border: 5px solid #262626;
+  color: #262626;
+  border-radius: 50px;
+  font-size: 4rem;
+  padding: 10px 24px;
+  outline: none;
+  width: 18rem;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.date-fields {
+  font-size: 4rem;
+  margin-top: 2rem;
+}
+
+.date-button-container {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  margin-top: 3rem;
+  width: 95%;
+}
+
+.date-container {
+  display: flex;
+  justify-content: center;
+}
