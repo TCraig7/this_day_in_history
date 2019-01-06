@@ -1,0 +1,44 @@
+{
+  "name": "this_day_in_history",
+  "version": "1.0.0",
+  "description": "An application that gives trivia for each day of the year.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "start": "./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
+    "build": "./node_modules/webpack/bin/webpack.js",
+    "test": "./node_modules/mocha/bin/mocha --compilers @babel/register"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TCraig7/this_day_in_history.git"
+  },
+  "author": "Tara Craig",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TCraig7/this_day_in_history/issues"
+  },
+  "homepage": "https://github.com/TCraig7/this_day_in_history#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "css-loader": "^1.0.1",
+    "mocha": "^5.2.0",
+    "style-loader": "^0.23.1"
+  },
+  "dependencies": {
+    "@babel/core": "^7.2.0",
+    "@babel/preset-env": "^7.2.0",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/register": "^7.0.0",
+    "babel-loader": "^8.0.4",
+    "jquery": "^3.3.1",
+    "mocha-loader": "^2.0.0",
+    "node-libs-browser": "^2.1.0",
+    "webpack": "^4.26.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
+  }
+}
