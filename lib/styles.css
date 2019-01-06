@@ -1,0 +1,22 @@
+body {
+  background-color: #081639;
+  /* background-image: linear-gradient(to bottom right, #081639, #111F42, #2D2749, #5E3548); */
+  background-image: url(/images/background.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: 'Lobster', sans-serif;
+}
+
+h1 {
+  font-size: 4rem;
+  color: #262626;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+nav {
+  height: 2rem;
+  background-color: #262626;
+  /* border-bottom: 5px solid blue; */
+}
