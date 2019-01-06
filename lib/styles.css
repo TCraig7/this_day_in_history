@@ -1,22 +1,53 @@
-body {
-  background-color: #081639;
-  /* background-image: linear-gradient(to bottom right, #081639, #111F42, #2D2749, #5E3548); */
-  background-image: url(/images/background.jpeg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-  font-family: 'Lobster', sans-serif;
+body, html {
+  height: 100%;
+}
+
+footer {
+  background-color: #262626;
+  position: fixed;
+  height: 6rem;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
 
 h1 {
-  font-size: 4rem;
-  color: #262626;
+  font-family: 'Lobster', sans-serif;
+  text-decoration: underline;
+  font-size: 12rem;
+  color: #FFF;
   text-align: center;
-  margin-top: 1rem;
+  margin-top: 4rem;
+}
+
+h4 {
+  font-family: 'Mukta', sans-serif;
+  font-size: 6rem;
+  color: ##262626;
+  text-align: center;
+  margin-top: 8rem;
 }
 
 nav {
-  height: 2rem;
+  height: 6rem;
   background-color: #262626;
-  /* border-bottom: 5px solid blue; */
+}
+
+.bg {
+  background-image: url(/images/background.jpeg);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.btn {
+  background-color: Transparent;
+  border: 7px solid #262626;
+  color: #262626;
+  border-radius: 50px;
+  font-size: 4rem;
+  padding: 10px 24px;
+  outline: none;
+  align-items: center;
 }
