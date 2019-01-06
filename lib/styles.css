@@ -14,7 +14,7 @@ footer {
 h1 {
   font-family: 'Lobster', sans-serif;
   text-decoration: underline;
-  font-size: 12rem;
+  font-size: 11rem;
   color: #FFF;
   text-align: center;
   margin-top: 4rem;
@@ -25,7 +25,7 @@ h4 {
   font-size: 6rem;
   color: ##262626;
   text-align: center;
-  margin-top: 8rem;
+  margin-top: 25%;
 }
 
 nav {
@@ -43,11 +43,34 @@ nav {
 
 .btn {
   background-color: Transparent;
-  border: 7px solid #262626;
+  border: 5px solid #262626;
   color: #262626;
   border-radius: 50px;
   font-size: 4rem;
   padding: 10px 24px;
   outline: none;
-  align-items: center;
+  width: 18rem;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.date-fields {
+  font-size: 4rem;
+  margin-top: 2rem;
+}
+
+.date-button-container {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  margin-top: 3rem;
+  width: 95%;
+}
+
+.date-container {
+  display: flex;
+  justify-content: center;
 }
