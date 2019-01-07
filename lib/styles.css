@@ -1,5 +1,6 @@
 body, html {
   height: 100%;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 
 footer {
@@ -21,9 +22,9 @@ h1 {
 }
 
 h4 {
-  font-family: 'Mukta', sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif;
   font-size: 6rem;
-  color: ##262626;
+  color: #262626;
   text-align: center;
   margin-top: 10%;
 }
@@ -43,9 +44,10 @@ nav {
 
 .btn {
   background-color: Transparent;
-  border: 5px solid #262626;
+  border: 3px solid #262626;
   color: #262626;
   border-radius: 50px;
+  font-family: 'Open Sans Condensed', sans-serif;
   font-size: 4rem;
   padding: 10px 24px;
   outline: none;
@@ -58,9 +60,11 @@ nav {
 }
 
 .date-fields {
+  font-family: 'Open Sans Condensed', sans-serif;
   font-size: 4rem;
   margin-top: 2rem;
   outline: none;
+  color: #262626;
 }
 
 .date-button-container {
@@ -79,11 +83,13 @@ nav {
 .outer-trivia-container {
   display: flex;
   justify-content: center;
-  margin-top: 2rem;
+  margin-top: 3rem;
 }
 
 .trivia-container {
   width: 80%;
   text-align: center;
   font-size: 4rem;
+  color: #262626;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
