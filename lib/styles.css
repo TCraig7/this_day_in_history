@@ -60,6 +60,7 @@ nav {
 .date-fields {
   font-size: 4rem;
   margin-top: 2rem;
+  outline: none;
 }
 
 .date-button-container {
