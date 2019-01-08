@@ -22,6 +22,10 @@ The live application can be found here: [This Day in History](https://tcraig7.gi
 
 ![image](https://user-images.githubusercontent.com/36015215/50807396-7acbc300-12b7-11e9-8532-bdf7490f50af.png) ![image](https://user-images.githubusercontent.com/36015215/50807465-bcf50480-12b7-11e9-8152-c43b80138e9b.png)
 
+## Future Goals
+
+* Build out a notification service that can send a user a random fact every day about that date.
+
 ## Scripts
 
 ### Running the Server Locally
