@@ -6,7 +6,9 @@ This Day in History is an application that gives users the ability to select a d
 
 This project was submitted as the final project of Module 4 of the back-end program at Turing School of Software and Design. The goal of the project was to mimic a take-home challenge that a person may receive during a job application process.
 
-The trivia is pulled from the [Numbers API](http://numbersapi.com) date endpoint.
+The trivia is pulled from the [Numbers API](http://numbersapi.com)* date endpoint.
+
+*Github requires that all apps hosted through GitHub pages be HTTPS, and so the page will initially block the fetch request when a user clicks the 'submit' button. In Chrome, you can go around this by allowing unsafe scripts for this website only.
 
 ## Live Application
 
