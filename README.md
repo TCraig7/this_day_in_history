@@ -12,6 +12,20 @@ The trivia is pulled from the [Numbers API](http://numbersapi.com) date endpoint
 
 The live application can be found here: [This Day in History](https://tcraig7.github.io/this_day_in_history/)
 
+**Please note that this a mobile-first application, and so should be viewed through the developer tools device toolbar**
+
+#### Landing Page
+
+![image](https://user-images.githubusercontent.com/36015215/50807436-ababf800-12b7-11e9-9f2f-746fe43a7b45.png)
+
+#### After Searching a Date
+
+![image](https://user-images.githubusercontent.com/36015215/50807396-7acbc300-12b7-11e9-8532-bdf7490f50af.png) ![image](https://user-images.githubusercontent.com/36015215/50807465-bcf50480-12b7-11e9-8152-c43b80138e9b.png)
+
+## Future Goals
+
+* Build out a notification service that can send a user a random fact every day about that date.
+
 ## Scripts
 
 ### Running the Server Locally
